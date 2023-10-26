@@ -1,0 +1,176 @@
+
+/* logo */
+
+.logo {
+    width: 170px;
+    cursor: pointer;
+
+}
+
+/* body */
+body {
+    background-color: beige;
+}
+
+
+/* header */
+header {
+    border-bottom: 1px solid black;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+.colorParrafo {
+    color: rgb(7, 4, 1);
+    text-align: center;
+    
+}
+
+footer {
+    margin: 10px;
+    padding: 10px;
+    border-top: 1px solid black;
+    color: grey;
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+
+.texto {
+
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/*listas */
+
+nav ul li {
+   list-style-type: none;
+   display: inline-block;
+   margin: 0 20PX;
+}
+
+a {
+text-decoration: none;
+text-transform: uppercase;
+font-weight: bold;
+color: black;
+}
+
+/* Main */
+
+main {
+margin: 20px;
+padding: 20px;
+}
+
+
+h1, h2, h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px 0px;
+}
+
+.whats {
+    width: 100px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+.queofrecemos {
+    color: rgb(7, 4, 1);
+    text-align: center;
+}
+
+.contenedor {
+    border: 4px black inset;
+    margin: 50px 10px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    padding-right: 40px;
+}
+
+.nuestrascabañas {
+    margin: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.imgcabañas {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.nuestrascabañas {
+    background-color: rose;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.texto {
+    text-align: center;
+    text-decoration-color: grey;
+
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+/* contacto */
+
+form {
+    margin-top: 30px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: gray
+}
+
+input[type=text],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+}
+
+
+.btnformulario {
+    background-color: grey;
+    color: beige;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.titulogaleria {
+    background-color: beige;
+    text-align: center;
+
+}
